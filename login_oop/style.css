@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+form {
+    padding: 10px;
+    width: 500px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .form_group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form .form_group input {
+    width: 90%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background: hsl(0deg 1% 79% / 69%);
+    border-radius: 25px;
+    height: 2em;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+form .form_group input::placeholder {
+    font-family: Arial;
+    font-weight: 700;
+}
+
+form button {
+    padding: 1em 2em;
+    width: 25%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: royalblue;
+    color: #fff;
+    font-size: 1em;
+}
+
+form a {
+    margin: 10px;
+    text-decoration: none;
+}
